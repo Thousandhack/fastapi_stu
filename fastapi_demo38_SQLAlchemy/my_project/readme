@@ -1,0 +1,106 @@
+# pip install async-exit-stack async-generator
+
+
+# 使用 Alembic 初始化数据库（创建表等）
+
+
+uvicorn sql_app.main:app --reload
+
+
+中间件替代DB会话
+如果您不能使用依赖项 yield -例如，如果您没有使用 Python 3.7 ，并且无法安装上述针对 Python 3.6 的“反向端口”，则 可以在类似的“中间件”中设置会话办法。
+
+“中间件”基本上是始终针对每个请求执行的功能，其中某些代码在端点功能之前执行，而某些代码在端点功能之后执行。
+
+创建中间件
+我们将添加的中间件（只是一个函数）将为 SessionLocal 每个请求 创建一个新的SQLAlchemy ，将其添加到请求中，然后在请求完成后将其关闭。
+
+from typing import List
+
+from fastapi import Depends, FastAPI, HTTPException, Request, Response
+from sqlalchemy.orm import Session
+
+from . import crud, models, schemas
+from .database import SessionLocal, engine
+
+models.Base.metadata.create_all(bind=engine)
+
+app = FastAPI()
+
+
+@app.middleware("http")
+async def db_session_middleware(request: Request, call_next):
+    response = Response("Internal server error", status_code=500)
+    try:
+        request.state.db = SessionLocal()
+        response = await call_next(request)
+    finally:
+        request.state.db.close()
+    return response
+
+
+# Dependency
+def get_db(request: Request):
+    return request.state.db
+
+
+@app.post("/users/", response_model=schemas.User)
+def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
+    db_user = crud.get_user_by_email(db, email=user.email)
+    if db_user:
+        raise HTTPException(status_code=400, detail="Email already registered")
+    return crud.create_user(db=db, user=user)
+
+
+@app.get("/users/", response_model=List[schemas.User])
+def read_users(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
+    users = crud.get_users(db, skip=skip, limit=limit)
+    return users
+
+
+@app.get("/users/{user_id}", response_model=schemas.User)
+def read_user(user_id: int, db: Session = Depends(get_db)):
+    db_user = crud.get_user(db, user_id=user_id)
+    if db_user is None:
+        raise HTTPException(status_code=404, detail="User not found")
+    return db_user
+
+
+@app.post("/users/{user_id}/items/", response_model=schemas.Item)
+def create_item_for_user(
+    user_id: int, item: schemas.ItemCreate, db: Session = Depends(get_db)
+):
+    return crud.create_user_item(db=db, item=item, user_id=user_id)
+
+
+@app.get("/items/", response_model=List[schemas.Item])
+def read_items(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
+    items = crud.get_items(db, skip=skip, limit=limit)
+    return items
+信息
+
+我们将的创建 SessionLocal() 和请求处理放在一个 try 块中。
+
+然后我们将其关闭 finally 。
+
+这样，我们确保在请求后数据库会话始终关闭。 即使在处理请求时出现异常。
+
+关于 request.state
+request.state 是每个 Request 对象 的属性 。 它可以存储附加到请求本身的任意对象，例如本例中的数据库会话。 您可以在 Starlette的有关 Request state 的文档中 阅读有关它的更多信息 。
+
+在这种情况下，对于我们来说，这有助于确保所有请求都使用一个数据库会话，然后在中间件中关闭。
+
+
+
+与 yield 或中间件的 依赖关系
+在 此处 添加 中间件 与依赖项的功能类似， yield 但有一些区别：
+
+它需要更多代码，并且稍微复杂一些。
+中间件必须是一种 async 功能。
+如果其中包含必须“等待”网络的代码，则可能会“阻塞”您的应用程序，从而导致性能降低。
+尽管这里的工作方式可能不是很成问题 SQLAlchemy 。
+但是，如果您向具有大量 I / O 等待 的中间件添加更多代码 ，则可能会出现问题。
+每个 请求 都运行一个中间件 。
+因此，将为每个请求创建一个连接。
+即使 处理该请求 的 路径操作 不需要DB。
+
