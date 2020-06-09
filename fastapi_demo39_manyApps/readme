@@ -1,0 +1,7 @@
+uvicorn app.main:app --reload
+
+没有数据库交互的一个demo
+
+
+多次包含同一路由器，但使用不同的 prefix
+您也可以 .include_router() 在 同一 路由器上使用不同的前缀 多次 使用。
