@@ -11,7 +11,7 @@ tmp = Jinja2Templates(directory='templates')
 
 @app.get('/')  # 接受get请求
 async def get_file(request: Request):
-    return tmp.TemplateResponse('file.html', {'request': request})
+    return tmp.TemplateResponse('file.html', {'request': request})  # 请求上下文：TemplateResponse
 
 
 # 单个文件

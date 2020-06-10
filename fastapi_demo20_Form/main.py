@@ -4,6 +4,7 @@ from fastapi.responses import JSONResponse
 
 app = FastAPI()
 
+# form 表单的使用
 
 @app.post("/login/")
 async def login(*, username: str = Form(...), password: str = Form(...)):
@@ -13,12 +14,12 @@ async def login(*, username: str = Form(...), password: str = Form(...)):
 
 
 # POST请求：http://127.0.0.1:8000/login/
-# body数据使用form-data
+# body数据使用form-data，将数据传给后端
 """
 username   zero
 password   123456
 """
-# 返回结果：
+# 返回结果：后端对用户名和密码进行验证，返回相应的消息
 """
 {
     "code": -2,
