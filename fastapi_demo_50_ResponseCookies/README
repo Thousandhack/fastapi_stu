@@ -1,0 +1,18 @@
+主要是使用请求然后产生cookies 返回cookies
+
+Response 直接在代码中返回时,创建cookie 。
+可以按照直接返回 响应中所述创建响应 。
+然后在其中设置Cookies
+
+如果直接返回响应而不是使用 Response 参数，则FastAPI将 直接返回响应 。
+因此，您将必须确保数据类型正确。 例如，如果您返回，则它与JSON兼容 JSONResponse 。
+另外，您没有发送任何应该由过滤的数据 response_model 。
+
+这个的例子和demo15总体差不多
+
+
+可以使用 from starlette.responses import Response 或 from starlette.responses import JSONResponse 。
+FastAPI 提供相同 starlette.responses 的 fastapi.responses ，就像为你的方便，开发人员。
+但是大多数可用的响应直接来自Starlette。
+
+由于 Response 可以经常使用来设置标头和cookie，因此 FastAPI 还在提供 fastapi.Response 。
