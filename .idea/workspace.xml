@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b70966a7-37b4-406a-bb71-96fedc4250f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fastapi_demo42_StaticFiles/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastapi_demo42_StaticFiles/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastapi_demo54_OAuth2Scopes/demo_01/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastapi_demo55_HTTPBasicAuth/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fastapi_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fastapi_demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastapi_demo20_Form/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi_demo20_Form/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastapi_demo21_file/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi_demo21_file/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastapi_demo21_fileupload/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi_demo21_fileupload/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,39 +19,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fastapi_demo41_OpenAPI_docs/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-216" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="176">
+                <caret line="8" column="50" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="54" />
+              </first_editor>
+              <second_editor />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fastapi_demo21_file/main.py">
+        <entry file="file://$PROJECT_DIR$/fastapi_demo53_AdvancedDependencies/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1602">
-              <caret line="92" column="3" selection-start-line="92" selection-start-column="3" selection-end-line="92" selection-end-column="3" />
+            <state relative-caret-position="154">
+              <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
               <folding>
-                <element signature="e#0#51#0" expanded="true" />
+                <element signature="e#0#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fastapi_demo21_fileupload/main.py">
+        <entry file="file://$PROJECT_DIR$/fastapi_demo54_OAuth2Scopes/demo_01/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            <state relative-caret-position="242">
+              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fastapi_demo42_StaticFiles/notes">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fastapi_demo55_HTTPBasicAuth/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="-81">
+              <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,7 +83,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fastapi_demo02/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
+            <state relative-caret-position="286">
               <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
             </state>
           </provider>
@@ -85,7 +92,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fastapi_demo20_Form/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
+            <state relative-caret-position="198">
               <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
@@ -125,6 +132,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>PyJWTError</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -137,13 +149,14 @@
         <option value="$PROJECT_DIR$/fastapi_demo20_Form/main.py" />
         <option value="$PROJECT_DIR$/fastapi_demo21_fileupload/main.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/fastapi_demo54_OAuth2Scopes/demo_01/main.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-6" />
+    <option name="x" value="-9" />
     <option name="y" value="95" />
-    <option name="width" value="1106" />
+    <option name="width" value="1109" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectView">
@@ -156,18 +169,34 @@
         <subPane>
           <expand>
             <path>
-              <item name="fastapi_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fastapi_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="fastapi_stu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fastapi_stu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="fastapi_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fastapi_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="fastapi_demo41_OpenAPI_docs" type="462c0819:PsiDirectoryNode" />
+              <item name="fastapi_stu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fastapi_stu" type="462c0819:PsiDirectoryNode" />
+              <item name="fastapi_demo01_helloWorld" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="fastapi_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fastapi_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="fastapi_demo42_StaticFiles" type="462c0819:PsiDirectoryNode" />
+              <item name="fastapi_stu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fastapi_stu" type="462c0819:PsiDirectoryNode" />
+              <item name="fastapi_demo53_AdvancedDependencies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fastapi_stu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fastapi_stu" type="462c0819:PsiDirectoryNode" />
+              <item name="fastapi_demo54_OAuth2Scopes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fastapi_stu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fastapi_stu" type="462c0819:PsiDirectoryNode" />
+              <item name="fastapi_demo54_OAuth2Scopes" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fastapi_stu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fastapi_stu" type="462c0819:PsiDirectoryNode" />
+              <item name="fastapi_demo55_HTTPBasicAuth" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -176,6 +205,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -184,6 +214,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pyCode\fastAPIProject\fastapi_stu" />
       <recent name="D:\pythonproject\fastapi_demo" />
     </key>
   </component>
@@ -199,7 +230,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="fastapi_demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fastapi_demo54_OAuth2Scopes/demo_01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fastapi_demo54_OAuth2Scopes/demo_01/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="fastapi_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -224,6 +277,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -251,21 +305,23 @@
       <workItem from="1591623214688" duration="1655000" />
       <workItem from="1591713912775" duration="3044000" />
       <workItem from="1591796959498" duration="431000" />
+      <workItem from="1594650813633" duration="489000" />
+      <workItem from="1594651315484" duration="3524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14291000" />
+    <option name="totallyTimeSpent" value="18304000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25945538" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2660858" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.53114754" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.52974504" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -274,7 +330,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33934426" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.35835695" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -285,6 +341,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/fastapi_stu$main.coverage" NAME="main Coverage Results" MODIFIED="1594651316992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastapi_demo01_helloWorld" />
+    <SUITE FILE_PATH="coverage/fastapi_stu$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1594655469849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastapi_demo54_OAuth2Scopes/demo_01" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/fastapi_demo08_body/main.py">
@@ -398,29 +458,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="127">
-            <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/fastapi_demo41_OpenAPI_docs/main.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fastapi_demo21_file/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1958">
+          <caret line="92" column="3" selection-start-line="92" selection-start-column="3" selection-end-line="92" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fastapi_demo21_fileupload/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fastapi_demo01_helloWorld/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="118">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fastapi_demo21_file/main.py">
+    <entry file="file://$PROJECT_DIR$/fastapi_demo42_StaticFiles/notes">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1602">
-          <caret line="92" column="3" selection-start-line="92" selection-start-column="3" selection-end-line="92" selection-end-column="3" />
+        <state>
+          <caret selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fastapi_demo42_StaticFiles/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#0#51#0" expanded="true" />
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -430,14 +506,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fastapi_demo02/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
+        <state relative-caret-position="286">
           <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fastapi_demo20_Form/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="198">
           <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
@@ -463,32 +539,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fastapi_demo21_fileupload/main.py">
+    <entry file="file://$PROJECT_DIR$/fastapi_demo53_AdvancedDependencies/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastapi_demo42_StaticFiles/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="154">
+          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
           <folding>
-            <element signature="e#0#27#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fastapi_demo42_StaticFiles/notes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="176">
+            <caret line="8" column="50" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="54" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fastapi_demo41_OpenAPI_docs/main.py">
+    <entry file="file://$PROJECT_DIR$/fastapi_demo54_OAuth2Scopes/demo_01/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216" />
+        <state relative-caret-position="242">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fastapi_demo55_HTTPBasicAuth/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
