@@ -1,0 +1,78 @@
+uvicorn main:app --reload  --host=0.0.0.0 --port=8000
+
+pip install pydantic[email]
+
+
+
+FastApi教程|FastAPI                                  https://www.pythonf.cn/read/56890
+FastApi教程|特征                                     https://www.pythonf.cn/read/56891
+FastApi教程|Python类型简介                           https://www.pythonf.cn/read/56892
+FastApi教程|教程-用户指南-简介                       https://www.pythonf.cn/read/56893
+FastApi教程|开始第一步                               https://www.pythonf.cn/read/56894
+FastApi教程|路径参数                                 https://www.pythonf.cn/read/56895
+FastApi教程|查询参数                                 https://www.pythonf.cn/read/56896
+FastApi教程|请求正文                                 https://www.pythonf.cn/read/56897
+FastApi教程|查询参数和字符串验证                     https://www.pythonf.cn/read/56898
+FastApi教程|路径参数和数值验证                       https://www.pythonf.cn/read/56899
+FastApi教程|主体-多个参数                            https://www.pythonf.cn/read/56900
+FastApi教程|body-Fields                              https://www.pythonf.cn/read/56901
+FastApi教程|body-嵌套模型                            https://www.pythonf.cn/read/56902
+FastApi教程|额外的数据类型                           https://www.pythonf.cn/read/56903
+FastApi教程|Cookie参数                               https://www.pythonf.cn/read/56904
+FastApi教程|标头参数（Header）                       https://www.pythonf.cn/read/56905
+FastApi教程|反应模型                                 https://www.pythonf.cn/read/56906
+FastApi教程|额外型号                                 https://www.pythonf.cn/read/56907
+FastApi教程|响应状态码                               https://www.pythonf.cn/read/56908
+FastApi教程|表格数据 Form                            https://www.pythonf.cn/read/56909
+FastApi教程|请求文件                                 https://www.pythonf.cn/read/56910
+FastApi教程|索取表格和文件FormAndFile                https://www.pythonf.cn/read/56911
+FastApi教程|处理错误                                 https://www.pythonf.cn/read/56912
+FastApi教程|路径操作配置                             https://www.pythonf.cn/read/56913
+FastApi教程|JSON兼容编码器                           https://www.pythonf.cn/read/56914
+FastApi教程|身体-更新(body)                          https://www.pythonf.cn/read/56915
+FastApi教程|依存关系第一步                           https://www.pythonf.cn/read/56917
+FastApi教程|类作为依赖项                             https://www.pythonf.cn/read/56918
+FastApi教程|子依赖                                   https://www.pythonf.cn/read/56919
+FastApi教程|路径操作修饰符的依赖性                   https://www.pythonf.cn/read/56920
+FastApi教程|与¶的依赖关系yield                       https://www.pythonf.cn/read/56921  这个有点没看懂
+# 6月
+FastApi教程|安全介绍                                          https://www.pythonf.cn/read/56922
+FastApi教程|第一步                                            https://www.pythonf.cn/read/56924
+FastApi教程|获取当前用户                                      https://www.pythonf.cn/read/56925
+FastApi教程|具有密码和承载的简单OAuth2                        https://www.pythonf.cn/read/56926
+FastApi教程|带有密码（和哈希）的OAuth2，带有JWT令牌的Bearer   https://www.pythonf.cn/read/56927
+FastApi教程|中间件                                            https://www.pythonf.cn/read/56928
+FastApi教程|CORS（跨源资源共享）                              https://www.pythonf.cn/read/56929
+FastApi教程|SQL（关系）数据库                                 https://www.pythonf.cn/read/56930
+FastApi教程|更大的应用程序-多个文件                           https://www.pythonf.cn/read/56931
+FastApi教程|后台任务                                          https://www.pythonf.cn/read/56932
+FastApi教程|应用配置                                          https://www.pythonf.cn/read/56933
+FastApi教程|静态文件                                          https://www.pythonf.cn/read/56934
+FastApi教程|测试中                                            https://www.pythonf.cn/read/56935
+FastApi教程|调试                                              https://www.pythonf.cn/read/56936
+
+Advanced User Guide    进阶者用户指南
+FastApi教程|高级用户指南-简介                                 https://www.pythonf.cn/read/56937
+FastApi教程|路径操作高级配置                                  https://www.pythonf.cn/read/56938
+FastApi教程|附加状态码                                        https://www.pythonf.cn/read/56939
+FastApi教程|直接返回响应                                      https://www.pythonf.cn/read/56940
+FastApi教程|自定义响应-HTML，流，文件等                       https://www.pythonf.cn/read/56941
+FastApi教程|OpenAPI中的其他响应                               https://www.pythonf.cn/read/56942
+FastApi教程|响应Cookie                                        https://www.pythonf.cn/read/56943
+FastApi教程|响应标题                                          https://www.pythonf.cn/read/56944
+FastApi教程|响应-更改状态码                                   https://www.pythonf.cn/read/56945
+FastApi教程|高级依赖                                          https://www.pythonf.cn/read/56946
+
+FastApi教程|进阶安全性-简介                                   https://www.pythonf.cn/read/56947
+官网的安全教程：https://fastapi.tiangolo.com/advanced/security/
+FastApi教程|OAuth2范围                                        https://www.pythonf.cn/read/56948
+FastApi教程|HTTP基本认证                                      https://www.pythonf.cn/read/56949
+FastApi教程|直接使用请求                                      https://www.pythonf.cn/read/56950
+FastApi教程|先进的中间件                                      https://www.pythonf.cn/read/56951
+FastApi教程|具有Peewee的SQL（关系）数据库                     https://www.pythonf.cn/read/56952
+FastApi教程|异步SQL（关系）数据库                             https://www.pythonf.cn/read/56953
+FastApi教程|NoSQL（分布式/大数据）数据库                      https://www.pythonf.cn/read/56954  暂时没有测试到怎么应用
+FastApi教程|子应用程序-代理之后，挂载                         https://www.pythonf.cn/read/56955
+
+
+
