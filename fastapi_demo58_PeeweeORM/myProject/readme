@@ -1,0 +1,8 @@
+在项目myProject的目录下运行：
+uvicorn sql_app.main:app --reload
+
+这时候直接生成相对于的test.db 的本地数据库文件
+
+关于Peewee 的数据迁移步骤查看：
+https://github.com/aachurin/peewee_migrations
+
