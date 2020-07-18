@@ -1,0 +1,7 @@
+常见的选择是Jinja2，与Flask和其他工具使用的选举相同。
+有一些实用程序可以轻松配置它，您可以直接在 FastAPI 应用程序（由Starlette提供）中使用它。
+安装依赖
+安装 jinja2 ：
+pip install jinja2
+如果您还需要提供静态文件（如本例所示），请安装 aiofiles ：
+pip install aiofiles
