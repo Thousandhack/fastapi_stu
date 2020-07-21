@@ -1,0 +1,18 @@
+WebSockets客户端:
+在生产中
+在您的生产系统中，您可能已经使用现代框架（如React，Vue.js或Angular）创建了前端。
+为了使用WebSockets与您的后端进行通信，您可能会使用前端的实用程序。
+或者，您可能有一个本机移动应用程序，以本机代码直接与WebSocket后端通信。
+或者，您可能还有任何其他与WebSocket端点进行通信的方式。
+但是对于本示例，我们将使用一个非常简单的HTML文档以及一些JavaScript，这些文档都放在一个长字符串中。
+当然，这并不是最佳选择，您不会将其用于生产。
+在生产中，您将具有上述选择之一。
+
+
+
+您也可以使用 from starlette.websockets import WebSocket 。
+FastAPI WebSocket 直接为开发人员 提供了同样 的便利。 但它直接来自Starlette。
+
+等待消息并发送消息
+在WebSocket路由中，您可以 await 发送消息和发送消息。
+您可以接收和发送二进制，文本和JSON数据。

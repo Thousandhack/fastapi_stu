@@ -43,3 +43,8 @@ app.mount("/subTEST", test)
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
+# 1. session加密的时候已经配置过了.如果没有在配置项中设置,则如下:
+app.secret_key = "sdqwoqn132u01bdxye82BIBIdho"  # 此处可以写随机字符串#
+
+
